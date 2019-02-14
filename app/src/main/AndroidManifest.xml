@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.saikumar.aagama_2k19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Homepage" />
+        <activity android:name=".MainactivityforDev" />
+        <activity android:name=".DevelopersPage" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Sponser" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Location" />
+        <activity android:name=".About" />
+        <activity android:name=".MainActivityforZone" />
+        <activity android:name=".MainActivityDept" />
+        <activity android:name=".Openzone" />
+        <activity android:name=".Skillszone" />
+        <activity android:name=".Funzone" />
+        <activity android:name=".CsedepartmentEvents" />
+        <activity android:name=".sliding_screen" />
+        <activity android:name=".Ecedepartmentevents" />
+        <activity android:name=".Itdepertmentevents" />
+        <activity android:name=".Eeedepartmentevents" />
+        <activity android:name=".Mechdepartmentevents" />
+        <activity android:name=".Civildepartmentevents" />
+        <activity android:name=".pharmaevents" />
+        <activity android:name=".Chemicaldeptevenets" />
+        <activity android:name=".Mech_mek_hunt"></activity>
+    </application>
+
+</manifest>

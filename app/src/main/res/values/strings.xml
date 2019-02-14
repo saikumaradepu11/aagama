@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aagama-2k19</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about">To be abreast of recent developments and to provide a common platform to the budding technocrats from all over the country, to have knowledge shared and to explore new horizons in the concerned Engineering, Pharmaceutical and Management streams, Anurag Group of institutions is going to conduct Aagama 2K19 on 22nd and 23rd March, 2019. In the present scenario, professional education like engineering is demanding overall development from the students. A student is expected to acquire thorough technical knowledge along with other supportive skills. With this back drop,  technical papers are invited from all the corners of the country. All the papers will be peer reviewed. There are many events like Tech Quiz, Paper presentation, Project presentation, Robotics, Circruitrix, Inversion and many more.</string>
+    <string name="department">Departments</string>
+
+</resources>
