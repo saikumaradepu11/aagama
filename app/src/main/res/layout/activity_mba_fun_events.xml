@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back13"
+    tools:context=".Mba_fun_events">
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="MBA department"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbaposter">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/posterpresentation"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PRADHARSHANA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbaposterbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbahr">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/hr"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="HR - Aakruthi"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="mbahrbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbafinance">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/finance"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Finance Dhraveena"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbafinancebtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbamarketing">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/marketing"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Marketing - srujana"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbamarketingbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbayoung">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/youngmanager"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Young Manager"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbayoungbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbabusiness">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/businessquiz"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Business Quiz"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="mbabusinessbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbabest">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/best_out_of_waste"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Best out of Waste"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbabestbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbabrand">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/rangoli"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Brand Rangoli"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="mbabrandbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbaselfie">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/adselfie"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Ad Selfie"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbaselfiebtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbatressure">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressurehunt"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Tresure Hunt"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbatressurebtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

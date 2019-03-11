@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back13"
+    tools:context=".Manoranjan_zone">
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="MANORANJAN"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="cseballon">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/ballon"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BALLOON PYRAMID"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CSE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="cseballontn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="csedark">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/darkcric"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="DARK CRICKET"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CSE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="csedarkbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="cseagitalk">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/agitalks"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="AGI TALKS"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CSE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="cseagitalkbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="csetech">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/skitenact"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SKIT ENACT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CSE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="csetechbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="cseprece">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/coding"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Inverse Coding"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CSE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="cseprecebtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="itguess">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/guessing"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="GUESS WHAT ?"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="itguessbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="itfaster">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/fastestfingerfirst"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="FASTER FINGER FIRST"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="itfasterbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="itsherlock">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/sherlocked"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SHER-LOCKED"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="itsherlockbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="itchallenge">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/beatchallenge"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BEAT THE CHALLENGE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="itchallengebtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="itcelebrity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/celebquiz"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="INFOTECH Quiz"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="itcelebritybtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ittressure">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressure"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Treasure hunt"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of IT"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="ittressurebtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecegrredy">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/greedynight"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="GREEDY KNIGHT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="ecegreedybtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecedevil">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/ladydevil"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="DEVIL FOLLOWS"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="ecedevilbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecedumcharad">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/dumcharad"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="DUMBCHARADS"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="ecedumcharadbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecetressure">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressurehunt"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text=" TREASURE HUNT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="ecetressurerbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecerubics">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/rubics"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="RUBIK’S CUBE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="ecerubicsbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ecepic">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/picturepuzzle"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PICTURE PUZZLE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of ECE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="ecepicbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="eeeballon">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/ballon"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Balloon Pyramid"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of EEE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="eeeballonbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="eeeselfie">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/silfie"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SELFIE KIECHO "
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of EEE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="eeefunplazabtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="eeefunplaza">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/funplaza"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="FUN PLAZA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of EEE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="eeeselfiebtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="ladyintheroom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/ladydevil"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SCARY HOUSE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of EEE"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="funbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="hunt">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressurehunt"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MECH HUNT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="huntbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="mechfun"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/funk"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="FUNK FROM JUNK"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mechfunbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="slowmech"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/slowbike"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SLOW BIKE CHALLENGE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="slowbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="mechewic"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/wicket"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="EXCEPT-THE-WICKET"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mechwicbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="maatamech"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/manamaata"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MAATA- #MANA BAASHA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mech_matabtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="pharmhunt">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressure"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PHARMA HUNT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of PHARMA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="pharmahuntbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="pharmbody">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bodytwister"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BODY TWISTER"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of PHARMA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="pharmdartbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="civilmockcid">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/mockcid"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Mock CID"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of CIVIL"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="civilmockcidbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbabet">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/best_out_of_waste"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BEST OUT OF WASTE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbabesttn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbaran">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/rangoli"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="BRAND RANGOLI"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbaranntn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="baself">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/adselfie"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="AD SELFIE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="cseadtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mbatres">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressurehunt"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="TRESURE HUNT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MBA"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mbatretn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

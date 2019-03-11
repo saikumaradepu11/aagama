@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Mba_tressurehunt">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libg1"
+            android:layout_below="@id/w1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TREASURE HUNT"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#fa0303"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/tressurehunt"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/heading_underline"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:textColor="#000"
+                android:text="1 Maximum of five members per team.\n2 The Treasure Hunt consists of clues,each one leading to the next clue.\n3 The clues are to be found in a particular order.A team cannot skip a clue.Skipping a clue leads to disqualification of the team.\n4 Do not search for clues in off-limit areas.\n5 If you found other team’s clue by any chance never tamper it.Aviolation of this rule could caused is qualification of your team.\n6 You move any object to search the clue,kindly replace it back.\n7 All the clues of the teams are different and located at different places but the final destination i.e. the treasure is same.The team which finds the treasure wins first."
+                android:textSize="18dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Co-ordinators:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Bhavani-9618122661.\n2.Swapna-9063702485"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:layout_marginRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/con_bg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration fee:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100/- per team"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="8dp"
+                    android:textSize="20dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="register"
+                    android:onClick="mbatre"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

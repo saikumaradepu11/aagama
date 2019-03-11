@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_dept_for_fun_events">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/AppThemeForDep">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back5"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMargin="20dp"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="@string/department"
+
+
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:popupTheme="@style/AppThemeForDep"
+                app:layout_collapseMode="pin">
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="cse"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#f7680f"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/cseb"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="CSE"
+                            android:textColor="#ffffff"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="itfun"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#09fc8b"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/it"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="IT"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#000"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="civilfun"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#fd1cee"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/civil"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="CIVIL"
+                            android:textColor="#ffffff"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="pharmafun"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#fa1a1a"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/ic_local_pharmacy_black_24dp"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="PHARMA"
+                            android:textColor="#ffffff"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="eeefun"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#4cfc1b"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/eee"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="EEE"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#000"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="funmech"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#1e47fd"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/mechanical"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="MECH"
+                            android:textColor="#ffffff"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="chemicalfun"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#fde610"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/chemical"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="CHEMICAL"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#000"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="ecefun"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#07b5ff"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/ic_lightbulb_outline_black_24dp"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="ECE"
+                            android:textColor="#ffffff"
+                            android:textSize="24dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="mbafun"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#fc097a"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/mba"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="MBA"
+                            android:textColor="#ffffff"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/lightgray"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Choose Events "
+                            android:textColor="#ffffff"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

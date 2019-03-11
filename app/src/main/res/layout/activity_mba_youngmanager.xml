@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Mba_youngmanager">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libg1"
+            android:layout_below="@id/w1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOUNG MANAGER"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#fa0303"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/heading_underline"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:textColor="#000"
+                android:text="The event consist of 4 rounds\na.Written test\nb.Innovative self-introduction\nc.Group discussion\nd.Stress interview.\n1Round I-Written test: it consist of 15 questions picked from all subjects from Ist Sem and IInd Sem, time duration 20 minutes will be given.\n2.Round II-Innovative Self Introduction- Based on written test participants will be eliminated and the one eligible will be passed on to this round, each participant will be give 1 minute of time to introduce them innovatively\n3.Round III-Group Discussion: On the results of IInd round participants will be teamed in a group, each group consist of 8 participants and discussion will be for 12 minutes.\n4.Round IV- Based on the above results participants will be selected for stressed interview, each participant will be given 3 minutes. Each participant will be asked 5 questions.\n.JUDGES:\n1.Round I is an elimination round and the paper shall be corrected by the coordinators\n2.Round II Satya Kiran from placements shall be invited to be the judge throughout the sessions of Round II III and IV\n3.An external member shall be identified"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Co-ordinators:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.M.Ravi Varma- 9652890433\n2.Mythri -6300556766"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:layout_marginRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/con_bg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration fee:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100/-"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="8dp"
+                    android:textSize="20dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="register"
+                    android:onClick="mbayou"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

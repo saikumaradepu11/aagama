@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Eee_artsfy_fartsy">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libg1"
+            android:layout_below="@id/w1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artsfy Fartsy"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#d45fe1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/artsfy"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/heading_underline"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:textColor="#000"
+                android:text="Artsy fartsy is a game, in which you can test your talent and improve your thinking and create some ideas that are useful. We will provide the required equipment. Time limit will be given within the time you have to complete your task."
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rules and Regulations:"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/rules_underline"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Only team entries are eligible.\n2.A team should consist of maximum two persons.\n3.The participants are not  allowed to use mobiles.\n4.Audience should not give any hints or clues to the competitors.\n5. We will provide  the components.\n6.Time limit-30 minutes."
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginRight="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Co-ordinators:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B.Sahithi (9010919049)\nN.Alekhya (9676380365)\n K.Ashwitha (8309946917)"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:layout_marginRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Coordinators:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                />
+
+            <include layout="@layout/faculty_underline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B.Nageshwar Rao\nM.Srikar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/con_bg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration fee:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="50/-"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="8dp"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="register"
+                    android:onClick="ecearts"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Chem_paper_presentation">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/w1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/libg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="PAPER UTSAV"
+                android:textColor="#fa0303"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/paper_presentation"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Description:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/heading_underline" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:text="All you need is to fuel your brain to ignite the ideas that never existed. The planet is all yours and come up with a spark of innovation to improve the lives around you. The stage has been set to listen to your words. Hope you fulfill the expectation in the form of PAPER PRESENATION."
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Rules and Regulations:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/rules_underline" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="•  Each team should comprise a maximum of 4 members.\n•  Googling of the paper is strictly not allowed.\n•  The time span of presentation is 6+2, (8min for presentation and 2min for queries).\n•  Two hard copies of the complete paper must be given on the day of presentation.\n•  One soft copy of the presentation should be brought along with the candidates, in a pen drive or a compact disk.\n•  The abstract should be relevant to the topics specified.\n•  The subject of the mail should be “Paper Presentation”,  include“Your Topic”, and “Branch of study” “Hall Ticket No.” “Phone No.”\n•  The paper should be strictly in IEEE format, not exceeding 15 pages.\nPlagiarism is strictly prohibited; points will be awarded based on the extent of innovativeness, presentations and skills.\nIf the work is a review, then it will be allowed to be presentation only on acknowledgement of the relevant authors."
+
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Co-ordinators:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="1.Prem (9133434178)\n2.Vinod (9703477162)"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Faculty Coordinator:"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/faculty_underline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Mrs.M.shireesha"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/con_bg1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:text="Registration fee:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:text="100/-"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:gravity="center"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="register"
+                    android:onClick="paper"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

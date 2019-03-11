@@ -92,6 +92,7 @@ public class Homepage extends AppCompatActivity {
                 public void onBoomButtonClick(int index) {
                     if (index == 5) {
                         currentPage = "home";
+                        startActivity(new Intent(Homepage.this,Coordinators_list.class));
 
                     } else if (index == 0) {
                         currentPage = "nhome";
@@ -143,15 +144,15 @@ public class Homepage extends AppCompatActivity {
         images.add(R.drawable.sponsor);
         images.add(R.drawable.contact);
         images.add(R.drawable.adress);
-        images.add(R.drawable.homepage);
+        images.add(R.drawable.boy);
 
 
         textInfo.add("About");
-        textInfo.add("Developer Team");
+        textInfo.add("Developers");
         textInfo.add("Sponsor");
         textInfo.add("Contact");
         textInfo.add("Location");
-        textInfo.add("Home");
+        textInfo.add("Coordinators");
     }
 
     private void countDownStart() {

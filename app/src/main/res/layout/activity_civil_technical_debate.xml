@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Civil_technical_debate">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/w1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/libg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Technical Debate"
+                android:textColor="#fa0303"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/debate"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Description:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/heading_underline" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:text="A debate is a process that involves formal discussions on a particular topic. In a debate opposing arguments are put forward to argue for opposing viewpoints."
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Rules and Regulations:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/rules_underline" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="1.) There are two teams, each consisting of two or three speakers.\n2.) Each team has two or three constructive speeches, and two to three rebuttal speeches. The affirmative gives the first constructive speech, and the rebuttals alternate: negative, affirmative, negative, affirmative. The affirmative has both the first and last speeches of the debate.\n3.) The affirmative has the right to make any reasonable definition of each of the terms of the proposition. If the negative challenges the reasonableness of a definition by the affirmative, the judge must accept the definition of the team that shows better grounds for its interpretation of the term.\n4.) The affirmative must advocate everything required by the topic itself. No revision of position of a team is permitted during the debate.\n5.) He who asserts must prove. In order to establish an assertion, the team must support it with enough evidence and logic to convince an intelligent but previously uninformed person that it is more reasonable to believe the assertion than to disbelieve it. Facts must be accurate. Visual materials are permissible, and once introduced, they become available for the opponents' use if desired.\n6.) In the questioning period, the questioner may ask any fair, clear question that has a direct bearing on the debate. The questioner may use the period to build up any part of his own case, to tear down any part of his opposition's case, or to ascertain facts, such as the opposition's position on a certain issue, that can be used later in the debate. The questioner must confine himself to questions and not make statements, comments, or ask rhetorical questions.\n7.) Each speaker is questioned as soon as he concludes his constructive speech. The witness must answer the questions without consulting his colleagues.\n8.) The judge must base his decision entirely on the material presented, without regard for other material which he may happen to possess."
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Co-ordinators:"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:text="HariPriya	8688726622 \nAnzum	7794009657 "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/con_bg1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:text="Registration fee:"
+                    android:textColor="#000"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:text="50/-"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:gravity="center"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="register"
+                    android:onClick="debate"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

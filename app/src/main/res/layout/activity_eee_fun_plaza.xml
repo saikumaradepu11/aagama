@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Eee_fun_plaza">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libg1"
+            android:layout_below="@id/w1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FUN PLAZA"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#fd9814"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/funplaza"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/heading_underline"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:textColor="#000"
+                android:text="The procedure of the event is explained below. It consists of five rounds. The event is totally about finding a clue step by step and entering in to the next level. And the final clue will be the combination of before four clues"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rules and Regulations:"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/rules_underline"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Maximum number of participants in a Team is 4.\n2.	A team of minimum 1 number is required for participating in the event.\n3.	The team needs to clear a total number of five stages in order to complete the event\n4.	A card will be given to the team and they should collect a stamp as proof of completion of stage. The stage will not be considered completed without the stamp.\n5.	After completion of each stage a hint will be given to the identify the location of next stage.\n6.	On the first stage will be buzz bar game the person playing will need to bring the rod from one end to another without touching the wire.\n7.	The second stage is inanimate hunt you will be given a piece of paper containing the list of objects you need to find in the limited time.\n8.	The third stage will be smart laser grid. The team needs to cross from one end to another without being detected by the laser.\n9.	In the fourth stage you will need to pick a slip from the box and complete the task written on it.\n10.	In the fifth stage stage you need to find the missing person with the help of clues given.\n11.	The team which completes all the five stages fastest will be the winner."
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginRight="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Co-ordinators:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. S.Benjamin (7780724874)\n2. V.M.Kautilya (7660082005)\n3. P. Vani (9154348817)"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:layout_marginRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Coordinators:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                />
+
+            <include layout="@layout/faculty_underline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. K.Bhadraji\n2. S.Mamatha"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/con_bg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration fee:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="50/-"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="8dp"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="register"
+                    android:onClick="eeefunpla"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

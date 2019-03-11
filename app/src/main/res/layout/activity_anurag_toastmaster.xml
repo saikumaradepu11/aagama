@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Anurag_toastmaster">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/app_bar"
+            android:id="@+id/w1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libg1"
+            android:layout_below="@id/w1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANURAG TOASTMASTERS"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#fa0303"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/toast"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="22dp"/>
+
+                <include layout="@layout/heading_underline"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Best Orator Championship, an initiative by Anurag Toastmasters, is a student organised public speaking contest. Participants leave the compitition having built confidence and experience in articulating thier ideas and sharing them with others BOC comprises of two Levels where in at Level 1: Students have the opportunity to complete in the Table topics Sessions, an impromptu speaking contest where you are encouraged to talk for 1-2 min.\nLevel 2: Students qualified in level 1 are assigned a mentor to prepare a speech for the next level. The Time frame for level 2 is 4-6 minutes. RULES OF BOC All the topics selected will be general to students in nature and are selected by the contest chair. Please bring your college ID card and receipt on the event day. Students are requested to report at the venue half an hour prior to the Competition. All the students are requested to come in a formal attire. The participants may not use any digital or other devices to gain an unfair advantage."
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:text="The speaker shall avoid potentially objectionable language, anectodes and material. Level 1: Table topics Contest The contestants cannot ask for a change a topic The Table Topics contestants must stay out of the room until the preceeding speaker has completed his/her responce to the topic. The participants are only eligible for level 2 if they have met with required time frames of level 1. Level 2:Prepared Speeches contest The subject of the speech must be thematic in nature ,not a monologue. The decision of judges will be finals and no arguments or appeals will be entertained."
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Co-ordinators:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="8dp"
+                    />
+
+                <include layout="@layout/coordinators_underline" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manogyna - 7660872108\nVarsha - 9989214687"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="18dp"
+                android:layout_marginRight="8dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/con_bg1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration fee:"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100/-"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginRight="8dp"
+                    android:textSize="20dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/registerbtnbg5"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="register"
+                    android:onClick="anutoast"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

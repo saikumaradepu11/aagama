@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back13"
+    tools:context=".Mech_fun_events">
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Mech department"
+                android:textColor="#fff"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="vaici">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/vaicitrya"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="VAICITRYA 1.0"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="vaicibtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="hunt">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/tressurehunt"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MECH HUNT"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="huntbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="shape">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/vision"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SHAPE-O-VISION"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="shapebtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mechpro">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/projectexpo"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="AVISHKAR"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mechprobtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="techwizz">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/mechtechwizz"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="TECHWHIZZ"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="techwizzbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mindspark">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/mindspark"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MIND SPARK"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="minspartbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mechth">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/mechthirst"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MECHTHIRST"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mechthbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="mech_poster">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/posterpresentation"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PRADHARSHANA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="mech_posterbtn"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="Mech_paper">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/paper_presentation"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="PAPER UTSAV"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="mech_paperbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="mechfun"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/funk"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="FUNK FROM JUNK"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mechfunbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="slowmech"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/slowbike"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SLOW BIKE CHALLENGE"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="slowbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="grapology"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/graphology"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="GRAPHOLOGY"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="grapologybtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="except_mech"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/wicket"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="EXCEPT- THE- WICKET"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mech_exceptbtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="maatamech"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/manamaata"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="MAATA- #MANA BAASHA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="By Department of MECH"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:onClick="mech_matabtn"
+                        android:padding="8dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Details"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

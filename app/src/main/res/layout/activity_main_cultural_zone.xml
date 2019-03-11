@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back13"
+    tools:context=".Main_cultural_zone">
+
+    <include layout="@layout/app_bar"
+        android:id="@+id/app_bar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Cultural Zone"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="culnar">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/nartanashala"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="NARTANASHALA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:padding="8dp"
+                        android:onClick="culnarbtn"
+                        android:background="@drawable/registerbtnbg4" android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="culchaya">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/chayachitra"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="CHAYACHITRA"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="culchayabtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="cullekhan">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/painting"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="LEKHAN"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="cullekahnbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                android:onClick="culsing">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/singing"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SINGING"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+
+                        />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Details"
+                        android:textSize="18dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:onClick="culsingbtn"
+                        android:padding="8dp"
+                        android:background="@drawable/registerbtnbg4"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -11,36 +11,382 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Splashscreen">
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Homepage" />
-        <activity android:name=".MainactivityforDev" />
-        <activity android:name=".DevelopersPage" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".Sponser" />
-        <activity android:name=".Contact" />
-        <activity android:name=".Location" />
-        <activity android:name=".About" />
-        <activity android:name=".MainActivityforZone" />
-        <activity android:name=".MainActivityDept" />
-        <activity android:name=".Openzone" />
-        <activity android:name=".Skillszone" />
-        <activity android:name=".Funzone" />
-        <activity android:name=".CsedepartmentEvents" />
-        <activity android:name=".sliding_screen" />
-        <activity android:name=".Ecedepartmentevents" />
-        <activity android:name=".Itdepertmentevents" />
-        <activity android:name=".Eeedepartmentevents" />
-        <activity android:name=".Mechdepartmentevents" />
-        <activity android:name=".Civildepartmentevents" />
-        <activity android:name=".pharmaevents" />
-        <activity android:name=".Chemicaldeptevenets" />
-        <activity android:name=".Mech_mek_hunt"></activity>
+        <activity
+            android:name=".Homepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainactivityforDev"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DevelopersPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sponser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityforZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Skillszone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sliding_screen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_mek_hunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_paper_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_project_expo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_technical_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_smart_iot_hackathon"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Eee_voltorb" />
+        <activity
+            android:name=".Eee_lady_in_the_room"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_artsfy_fartsy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_ballon_pyramid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_selfie_kucho"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_fun_plaza"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".it_white_board_coding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_techbuzz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_dazzling_coding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_codehunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_guess_what"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_fast_finger_first"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_sher_locked"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_celebrity_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IT_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IT_paper_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_virtual_job_fair"
+            android:screenOrientation="portrait" />
+        <activity android:name=".It_tressure_hunt" />
+        <activity
+            android:name=".Chem_paper_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_grup_discussion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_compound_preperation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_spell_bee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_jam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_general_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_vaicitriya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_shape_o_vision"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_techwizz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_mindspark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_mechthirst"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_fun_from_junk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_slow_bike_challenge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_graphology"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_except_the_wicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_maata_mana_basha"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_paper_presentaion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main_dept_for_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eee_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".It_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chem_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_paper_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_poster_expo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_mock_cid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_technical_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_technical_debate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_3d_challenge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_spot_modelling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_circuit_solving"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_matlab_debugging"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_tressurehunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_technical_wuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_rubics_cube"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_pin_pointing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_picture_puzzle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_greedynight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_devil_follows"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_dumbcharads"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_paper_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_projectexpo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ece_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy_poster_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy_oral_presentation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharmacy_technical_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharma_hunt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharma_body_twister"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharma_crack_the_world"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharma_game_of_darts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_code_mania"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_2d_crypt_it"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_tickle_your_brains"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_fear_coding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_smart_crawl_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_androcasino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_project_splash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_ballon_pyramid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_dark_cricket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_skit_enact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Civil_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pharma_fun_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mba_finance_event"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Mba_poster_presentation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_hr_akruthi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_marketing"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_best_out_of_waste"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_brand_rangoi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_adselfie"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_tressurehunt"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_youngmanager"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_businessquiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mba_fun_events"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Coordinators_list"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Main_cultural_zone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Food_zone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Techzone_events"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Skill_zone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Manoranjan_zone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Nartanashala"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chayachitra"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Lekhan_cul"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Singing_cul"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_paper_utsav"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Pharma_project_expo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_handicrafts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mech_projectexpo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Civil_hottopic"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".It_beat_the_challenge"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chemical_projectexpo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_agitalks"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Anurag_toastmaster"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Model_making_expo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Creative_language_fair"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_pradarshana"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_precedence_cards"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cse_spicode"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

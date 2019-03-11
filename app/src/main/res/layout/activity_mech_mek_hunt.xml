@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff2680"
+    android:background="#000"
     tools:context=".Mech_mek_hunt">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,6 +34,15 @@
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
                 android:textColor="#fa0303"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/tressurehunt"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -119,7 +128,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1.	PRANAY  -  9177121729\n2.	SHOAIB SIDDIQUI -  9393515656\n3.	ARBAZ- 88970 14763"
+                android:text="S.SAI KARTHIK 9652524936"
                 android:textColor="#000"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="8dp"
@@ -180,6 +189,7 @@
                     android:layout_marginTop="8dp"
                     android:textSize="22dp"
                     android:textColor="#000"
+                    android:layout_marginBottom="8dp"
                     android:textStyle="bold"
                     android:layout_weight="1"/>
                 <TextView
@@ -210,6 +220,7 @@
                     android:paddingRight="8dp"
                     android:paddingLeft="8dp"
                     android:text="register"
+                    android:onClick="mechhunt"
                     android:textColor="#000"
                     android:textSize="18dp" />
             </android.support.design.widget.CoordinatorLayout>

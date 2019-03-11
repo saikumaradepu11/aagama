@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 public class MainActivityforZone extends AppCompatActivity {
 
+
     ImageView logo;
     TextView desc;
 
@@ -35,20 +36,26 @@ public class MainActivityforZone extends AppCompatActivity {
     }
 
     public void techzone(View view){
-        startActivity(new Intent(MainActivityforZone.this, MainActivityDept.class));
+        startActivity(new Intent(MainActivityforZone.this, Techzone_events.class));
 
     }
     public void openzone(View view){
-        startActivity(new Intent(MainActivityforZone.this, Openzone.class));
+        startActivity(new Intent(MainActivityforZone.this, Manoranjan_zone.class));
     }
     public void skillzone(View view){
-        startActivity(new Intent(MainActivityforZone.this, Skillszone.class));
-
-    }
-    public void funzone(View view){
-        startActivity(new Intent(MainActivityforZone.this, Funzone.class));
+        startActivity(new Intent(MainActivityforZone.this, Skill_zone.class));
 
     }
 
+    public void foodzone(View view) {
+        startActivity(new Intent(MainActivityforZone.this, Food_zone.class));
+    }
 
+    public void culturalzone(View view) {
+        startActivity(new Intent(MainActivityforZone.this, Main_cultural_zone.class));
+    }
+
+    public void departments(View view) {
+        startActivity(new Intent(MainActivityforZone.this, Main_dept_for_fun_events.class));
+    }
 }
